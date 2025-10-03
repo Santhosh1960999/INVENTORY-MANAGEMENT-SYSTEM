@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+             body{
+                background-color: #e6f0ff;
+             }
+             img{
+                width: 300px;
+                height: 300px;
+                cursor: pointer;
+             }
+             .search{
+                display: flex;
+                flex-direction: row;
+                flex: 1fr 1fr 1fr;
+             }
+             .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 25px;
+                margin-top: 100px;
+                
+             }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: row;flex: 100px 1fr;"><img src="photos/logo.png" style="width: 100px;height: 100px;border-radius: 80px;"><h1 style="margin-left: 20px;font-style: italic;font-weight: bold;color: rgb(112, 43, 112);">   Your World Of Shopping, Just A Click Away.</h1></div>
+        <div class="search">
+            <input style="display: flex; width: 550px;height: 40px;border-radius: 20px;margin-left: 500px;border: solid black;id:searchInput;" type="text" placeholder="search items here">
+            <img style="width: 45px;height: 45px;margin-left: -50px;id:searchIcon;" src="photos/search icon logo.png">
+            <img style="width: 45px;height: 45px;margin-left: 350px;" src="photos/cart icon logo.png" alt="">
+        </div>
+        <div>
+            <h1 style="display:flex;margin-left:600px;font-weight: bolder;font-style: roboto;color: rgb(132, 16, 240);">Vaccum Cleaner</h1>
+        </div>
+        <div class="Main">
+            <div>
+                <img src="photos/karchervac.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Karcher</p>
+            </div>
+            <div>
+                <img src="photos/eurekavac.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Eureka</p>
+            </div>
+            <div>
+                <img src="photos/dysonvac.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Dyson</p>
+            </div>
+            <div>
+                <img src="photos/philipsvac.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Philips</p>
+            </div>
+            <div>
+                <img src="photos/agarovac.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 25px;">Agaro</p>
+            </div>
+        </div>
+                <div class="gallery">
+<div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/kvac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Karcher WD 3 S V-15/4/20 (YSY) *EU Wet & Dry Vacuum Cleaner  (Yellow)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/evac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">EUREKA FORBES Ultimo Wet & Dry Vacuum Cleaner  (Red, Silver)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/dvac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Dyson V12S Detect Slim Submarine Wet And Dry Vacuum Cleaner Cordless Vacuum Cleaner  (Yellow, Nickel)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pvac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS FC9352/01 (883935201280) Bagless Dry Vacuum Cleaner with Powerful Suction,Turbo Brush  (Blue)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/avac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">AGARO Ace Wet & Dry Vacuum Cleaner 1600 Watts, 21.5 kPa Suction Power with Dust Bag, 21 litres Tank Capacity, for Home Use,  (Black, Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/avac6.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Inalsa OZOY Handheld Vacuum Cleaner Hand-held Vacuum Cleaner with 2 in 1 Mopping and Vacuum  (Black & Grey)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/kvac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Karcher SC 2 EasyFix (yellow)*SEA Steam Mops  (Yellow)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/dvac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Dyson V11 Absolute Pro / V11 ABSOLUTE Cordless Vacuum Cleaner with Swappable Battery  (Blue)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/evac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">EUREKA FORBES Quick Clean DX Dry Vacuum Cleaner with Reusable Dust Bag  (Red, Black)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pvac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS FC9351/01 Bagless Dry Vacuum Cleaner  (Monza Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/avac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">AGARO Regal Hand-held Vacuum Cleaner Dry Vacuuming, 6.5 kPa Suction Power, Lightweight  (Black)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/kvac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Karcher WD 6 P Premium Wet and Dry Multi-purpose Vacuum Cleaner (Yellow and Black, 1.348-270.0) Wet & Dry Vacuum Cleaner  (Black-Yellow)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pvac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Philips SpeedPro Cordless Stick vacuum cleaner - FC6723/01 FC6723/01 Cordless Vacuum Cleaner  (Star White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/avac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">AGARO Rapid 1000-Watt, 10-Litre, with Blower Function Wet & Dry Vacuum Cleaner  (Red & Black)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pvac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Philips SpeedPro Cordless Stick vacuum cleaner - FC6723/01 FC6723/01 Cordless Vacuum Cleaner  (Star White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/evac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Eureka Forbes bold wet and dry vacuum cleaner  (Blue, Silver, Black)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/evac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">EUREKA FORBES Forbes Compact with 700 Watts Powerful Suction & Blower, Hand-held Vacuum Cleaner  (Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/dvac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Dyson Omni-glide Cordless Vacuum Cleaner  (Sprayed Purple/ Iron/ Nickel)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/avac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">AGARO Supreme Cordless Vacuum Cleaner 2in1 Handheld & Stick with 2 in 1 Mopping and Vacuum  (Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/kvac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Karcher SC 1 PREMIUM Steam Mops with Anti-Bacterial Cleaning  (Yellow, Black)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/kvac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Karcher Classic Vacuum Cleaner (Yellow, Black) Wet & Dry Vacuum Cleaner  (Black, Yellow)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/avac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">AGARO Grand Bed Vacuum Cleaner Hand-held Vacuum Cleaner  (Grey, Black)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/dvac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Dyson 381356-01 Hand-held Vacuum Cleaner  (Yellow, Iron, Nickel)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/evac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">EUREKA FORBES Super Vac Bagless Dry Vacuum Cleaner  (Black, Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+            </div>  
+    </body>
+</html>

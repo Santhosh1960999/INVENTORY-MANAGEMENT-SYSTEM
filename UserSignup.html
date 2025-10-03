@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User SignUp</title>
+    <style>
+        .signup {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 5px solid;
+            border-radius: 3px;
+            width: 550px;
+            height: 650px;
+            place-items: center;
+            margin-left: 450px;
+            margin-top: 100px;
+            background-color: lightblue;
+        }
+        body {
+            background-color: lightblue;
+        }
+        #message {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup">
+        <div><p style="font-style: roboto;font-weight: bold;font-size: 30px;">User Sign-Up</p></div>
+
+        <div><p style="font-weight:550;">First Name:</p> 
+            <input id="firstName" type="text" placeholder="enter first name" style="width: 300px;height: 30px;border:2px solid;border-radius: 6px;">
+        </div>
+
+        <div><p style="font-weight: bold;">Last Name:</p> 
+            <input id="lastName" type="text" placeholder="enter last name" style="width: 300px;height: 30px;border:2px solid;border-radius: 6px;">
+        </div>
+
+        <div><p style="font-weight: bold;">E-mail:</p> 
+            <input id="email" type="email" placeholder="enter email address" style="width: 300px;height: 30px;border:2px solid;border-radius: 6px;">
+        </div>
+
+        <div><p style="font-weight: bold;">Password:</p> 
+            <input id="password" type="password" placeholder="enter password" style="width: 300px;height: 30px;border:2px solid;border-radius: 6px;">
+        </div>
+
+        <div><p style="font-weight: bold;">Re type Password:</p> 
+            <input id="repassword" type="password" placeholder="re enter your password" style="width: 300px;height: 30px;border:2px solid;border-radius: 6px;">
+        </div>
+
+        <div>
+            <button onclick="signUp('customer')" style="width: 100px;height: 40px;border: solid;border-radius: 10px;border-color: black;background-color: rgb(59, 140, 210);align-items: center;margin-top: 50px;color: white;">Submit</button>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="usersignup.js"></script>
+</body>
+</html>

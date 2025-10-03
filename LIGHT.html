@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+             body{
+                background-color: #e6f0ff;
+             }
+             img{
+                width: 300px;
+                height: 300px;
+                cursor: pointer;
+             }
+             .search{
+                display: flex;
+                flex-direction: row;
+                flex: 1fr 1fr 1fr;
+             }
+             .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 25px;
+                margin-top: 100px;
+                
+             }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: row;flex: 100px 1fr;"><img src="photos/logo.png" style="width: 100px;height: 100px;border-radius: 80px;id:searchInput;"><h1 style="margin-left: 20px;font-style: italic;font-weight: bold;color: rgb(112, 43, 112);">   Your World Of Shopping, Just A Click Away.</h1></div>
+        <div class="search">
+            <input style="display: flex; width: 550px;height: 40px;border-radius: 20px;margin-left: 500px;border: solid black;" type="text" placeholder="search items here">
+            <img style="width: 45px;height: 45px;margin-left: -50px;id:searchIcon;" src="photos/search icon logo.png">
+            <img style="width: 45px;height: 45px;margin-left: 350px;" src="photos/cart icon logo.png" alt="">
+        </div>
+        <div>
+            <h1 style="display:flex;margin-left:600px;font-weight: bolder;font-style: roboto;color: rgb(132, 16, 240);">Light</h1>
+        </div>
+        <div class="Main">
+            <div>
+                <img src="photos/philipslight.png" style="width:80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Philips</p>
+            </div>
+            <div>
+                <img src="photos/anchorlight.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Anchor</p>
+            </div>
+            <div>
+                <img src="photos/wiprolight.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Wipro</p>
+            </div>
+            <div>
+                <img src="photos/suryalight.png" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Surya</p>
+            </div>
+            <div>
+                <img src="photos/havellslight.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Havells</p>
+            </div>
+        </div>
+                <div class="gallery">
+<div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/philit1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS 14W NEO LED Bulb with backup of upto 3 hrs Bulb Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/anclit1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">ANCHOR 9 W Basic Standard B22 LED Bulb  (White, Pack of 4)4.438 Ratings & 1 Review</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/wilit1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Wipro Garnet 9W Inverter LED, (Pack of 1) 4 hrs Bulb Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/surlit1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">SURYA RMSDL - 15w Dazzle Max Ceiling Light Ceiling Lamp  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/anclit2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Anchor Step Light Wall Lamp With Bulb</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/wilit2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Wipro Jasper multifunctional rechargeable torch and with backup upto 5 hrs Lantern Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/philit2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS Tesni 5W Rechargeable LED 15 hrs Lantern Emergency Light  (Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havlit1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS 15 W Basic T-Bulb B22 LED Bulb  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havlit2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Trekband Mini Torch  (Green, 7 cm, Rechargeable)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/surlit2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">SURYA 50W Led Genxt White (Pack of 1) Flood Light Outdoor Lamp  (White)Be the first to Review this product</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/anclit3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">ANCHOR 9 W Basic Standard B22 LED Bulb  (White, Pack of 8)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/wilit4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Wipro Safari LED with Mobile charging point (Pack of 1) 10 hrs Lantern Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/surlit5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">SURYA 10 W Basic Round B22 LED Bulb  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/philit3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS Ojas 4 hrs Lantern Emergency Light  (Yellow)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/wilit3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Wipro 6W Re-chargeable LED Table Lamp 4 hrs Lantern Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havlit3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS 10W LED Flood Light Centura Neo 6K Flood Light Outdoor Lamp  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/philit5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS 5W Helio Rechargeable LED Emergency Light/Lantern (Grey) (581956), with Wildcraft Mask , Pack of 1 8 hrs Lantern Emergency Light  (Grey)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/wilit5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Wipro Azure LED Rechargeable Lantern 4 hrs Lantern Emergency Light  (White, Blue)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havlit4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS 8.5W B22 WHITE EMERGENCY LED BULB PACK OF-03 4 hrs Bulb Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/surlit4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">SURYA 6 W Basic Round 2 Pin LED Bulb  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havlit5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Bright Star 4 hrs Lantern Emergency Light  (Cyan & white)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/surlit3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">SAHU SURYA Sapphire LED Rechargeable Lantern White 2700K-6500K|1800 mAh Battery 4 hrs Lantern Emergency Light  (Multicolor)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havlit6.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Glanz Solar 2 in 1 3W 2 hrs Lantern Emergency Light  (Red)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/philit4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">PHILIPS T Beamer 20w Rechargeable Inverter LED T 3 hrs Bulb Emergency Light  (White)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+             </div>  
+    </body>
+</html>

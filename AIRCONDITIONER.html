@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+             body{
+                background-color: #e6f0ff;
+             }
+             img{
+                width: 300px;
+                height: 300px;
+                cursor: pointer;
+             }
+             .search{
+                display: flex;
+                flex-direction: row;
+                flex: 1fr 1fr 1fr;
+             }
+             .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 25px;
+                margin-top: 100px;
+                
+             }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: row;flex: 100px 1fr;"><img src="photos/logo.png" style="width: 100px;height: 100px;border-radius: 80px;"><h1 style="margin-left: 20px;font-style: italic;font-weight: bold;color: rgb(112, 43, 112);">   Your World Of Shopping, Just A Click Away.</h1></div>
+        <div class="search">
+            <input style="display: flex; width: 550px;height: 40px;border-radius: 20px;margin-left: 500px;border: solid black; id:searchInput;" type="text" placeholder="search items here">
+            <img style="width: 45px;height: 45px;margin-left: -50px;id:searchIcon;" src="photos/search icon logo.png">
+            <img style="width: 45px;height: 45px;margin-left: 350px;" src="photos/cart icon logo.png" alt="">
+        </div>
+        <div>
+            <h1 style="display:flex;margin-left:600px;font-weight: bolder;font-style: roboto;color: rgb(132, 16, 240);">Air Conditioner</h1>
+        </div>
+        <div class="Main">
+            <div>
+                <img src="photos/samsungac.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Samsung</p>
+            </div>
+            <div>
+                <img src="photos/lgac.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 30px;">LG</p>
+            </div>
+            <div>
+                <img src="photos/voltasac.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 25px;"> Voltas</p>
+            </div>
+            <div>
+                <img src="photos/bluestarac.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Blue star</p>
+            </div>
+            <div>
+                <img src="photos/haierac.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 25px;">Haier</p>
+            </div>
+        </div>
+                <div class="gallery">
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung 2025 Model Bespoke AI, 5 Step Convertible 1.5 Ton 3 Star Split Inverter with Powerful cooling & Energy saving, 120% expandable AC with Wi-fi Connect</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG 2025 Model AI Convertible 6-in-1 1.5 Ton 3 Star Split AI Dual Inverter with Faster Cooling and Energy Saving, VIRAAT Mode and Diet Mode Plus AC - White  (US-Q18JNXE, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/blueac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Blue Star 2025 Model 1.5 Ton 3 Star Split Inverter AC - White  (ID318YKU, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/volac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Voltas 2023 Model 1.5 Ton 3 Star Split Inverter AC - Floral White  (183V VERTIS PLATINA (4503538), Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/blueac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Blue Star 2024 Model 1.5 Ton 5 Star Split Inverter AC - White  (IC518YNUR, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/haiac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Haier 2025 Model 1.5 Ton 3 Star Window Air Flow, Anti Bacterial Filter, 54 High Ambient Performance, Dynamic Cooling, Top Flow AC - White  (HWU18TF-EW3BE- FS, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung 2025 Model Easy Filter Plus (Anti-Bacteria) 2 Ton 3 Star Split Inverter AC with Wi-fi Connect - White  (AR60F24D13W/AR60F24D13WXNA/AR60F24D13WNNA, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG AI Convertible 6-in-1 Cooling 2023 Model 1.5 Ton 5 Star Split Inverter 4 Way Swing, HD Filter with Anti-Virus Protection AC with Wi-fi Connect - Floral  (RS-Q19FWZE, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung Convertible 5-in-1 Cooling 2024 Model 1.5 Ton 5 Star Split Inverter AC - White  (AR18CYNZABE/AR18CYNZABENNA/AR18CYNZABEXNA, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/blueac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Blue Star 2024 Model 1.5 Ton 5 Star Split Inverter AC with Wi-fi Connect - White  (IC518YNURS, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/volac1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Voltas 2025 Model 1.5 Ton 3 Star Split Inverter AC - White  (183V CAQ(4503901))</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/haiac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Haier 2025 Model Intelli-Convertible 7 in1 Convertible 1 Ton 3 Star Split Dual Inverter HD Filter,Frost Self Clean,Upto 20 M air Flow, Hyper PCB, 2 Way Swing AC - White  (HU11-3BN-INV//HS11V-TMS3BN-INV, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG Super Convertible 5-in-1 Cooling 1 Ton 3 Star Split Dual Inverter HD Filter with Anti-Virus Protection AC - White  (PS-Q12BNXE1, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/haiac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Haier 2025 Model Intelli-Convertible 7 in1 Convertible 1 Ton 3 Star Split Triple Inverter HD Filter,Frost Self Clean,Upto 20 M air Flow, Hyper PCB, 2 Way Swing AC with Wi-fi Connect - White</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/volac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Voltas 1.5 Ton 3 Star Window AC - White  (183 DZA (R32)/183 DZA, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG 1.5 Ton 3 Star Window Dual Inverter AC - White  (RW-Q18WUXA, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung 2024 Model AI pro 1.5 Ton 3 Star Split Inverter AC with Wi-fi Connect - White  (AR18CY3YAWK|AR18CY3YAWKNNA|AR18CY3YAWKXNA, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/blueac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Blue Star 1.5 Ton 5 Star Split Inverter AC - Maroon  (IC518QNUR-M, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgac3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG Super Convertible 5-in-1 Cooling 2024 Model 1.5 Ton 3 Star Hot and Cold Split Dual Inverter Viraat Mode, Super Silent, HD Filter With Anti-Virus Protection,Monsoon Comfort & ADC Sensor</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/haiac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Haier 1.6 Ton 5 Star Split Inverter AC with Wi-fi Connect - Grey, White  (HSU19G-MZAIP5BN-INV)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/haiac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Haier Frost Self-Clean 2023 Model 1 Ton 3 Star Split Inverter Cooling at Extreme Temperature, Super Anti-corrosion AC - White  (HS11V-TMS3BE-INV/HU11-3BE-INV / HSU11V-TMS3BE-INV, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samac5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung Convertible 5-in-1 Cooling Mode 1.5 Ton 5 Star Split Inverter Anti Bacteria Filter AC - White  (AR18BYNZAUR/AR18BYNZAURNNA/AR18BYNZAURXNA, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/blueac4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Blue Star 2024 Model 1.5 Ton 5 Star Split Inverter AC with Wi-fi Connect - White  (IC718DCUHD, Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/volac2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Voltas 2023 Model 2 Ton 2 Star Window AC - White  (242 Vectra Plus(4011465), Copper Condenser)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+             </div>  
+    </body>
+</html>

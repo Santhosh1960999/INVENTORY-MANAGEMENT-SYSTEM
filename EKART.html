@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INVENTORY MANAGEMENT SYSTEM</title>
+    <style>
+        .customer{
+            width: 300px;height: 45px;background-color:#FF6B6B;color: white;font-style: roboto;font-weight:bold;border-radius: 12px;
+            cursor: pointer;
+            margin-left: 50px;
+            margin-bottom: 0px;
+            border: solid;
+            border-color: black;
+        }
+        .customer:hover{
+            background-color: gold;
+        }
+        .customer:active{
+            background-color: rgb(182, 240, 251);
+            color: black;
+        }
+        .employee{
+            width: 300px;height: 45px;background-color:#4ECDC4;color:white;font-style: roboto;font-weight:bold;border-radius: 12px;
+            cursor: pointer;
+            margin-left: 50px;
+             border: solid;
+            border-color: black;
+        }
+        .employee:hover{
+            background-color: gold;
+        }
+        .employee:active{
+            background-color: rgb(182, 240, 251);
+            color: black;
+        }
+        .admin{
+            width: 300px;height: 45px;background-color: #3F51B5;color: white;font-style: roboto;font-weight:bold;border-radius: 12px;
+            cursor: pointer;
+            margin-left: 50px;
+             border: solid;
+            border-color: black;
+        }
+        .admin:hover{
+            background-color: gold;
+        }
+        .admin:active{
+            background-color: rgb(182, 240, 251);
+            color: black;
+        }
+        .buttons{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            place-items: center;
+            row-gap: 80px;
+            border: 5px solid white;
+            border-radius: 10px;
+            padding-top: 40px;
+            padding-right: 50px;
+            width: 500px;
+            margin-left: 450px;
+            text-align: center;
+             background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+            box-shadow: 0 0 10px rgba(0,0,0,0,1);
+            align-items: center;
+            
+        }
+        body{
+            background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+            font-family:Arial, sans-serif ;
+        }
+    </style>
+</head>
+<body>
+      <div>
+        <p style="height: 32;font-style: roboto;font-weight: bold; display:grid;font-family:'Dancing Script',cursive; place-items: center;font-size: 32px; color:white;">Login to Continue Shopping at E-Kart</p>
+      </div>  
+      <div style="margin-top: 100px;">
+      <div class="buttons">
+        <div>
+        <a href="User login.html"><button class="customer" >CUSTOMER LOGIN</button></a>
+        <p style="margin-top:3px;font-style: italic;margin-left: 290px;font-weight: bold; color:white; cursor: pointer;margin-bottom: 0px;">Don't hava an Account?</p>
+        <a href="UserSignup.html"><p style="margin-top:3px;font-style: italic;margin-left: 290px;color: rgb(211, 226, 12);font-weight: bold;cursor: pointer;">Sign up</p></a>
+        </div>
+        <div>
+        <a href="Employee login.html"><button class="employee" >EMPLOYEE LOGIN</button></a>
+        </div>
+        <div>
+        <a href="Admin login.html"><button class="admin" >ADMIN LOGIN</button></a>
+        </div>
+    </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

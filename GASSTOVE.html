@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+             body{
+                background-color: #e6f0ff;
+             }
+             img{
+                width: 300px;
+                height: 300px;
+                cursor: pointer;
+             }
+             .search{
+                display: flex;
+                flex-direction: row;
+                flex: 1fr 1fr 1fr;
+             }
+             .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 25px;
+                margin-top: 100px;
+                
+             }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: row;flex: 100px 1fr;"><img src="photos/logo.png" style="width: 100px;height: 100px;border-radius: 80px;"><h1 style="margin-left: 20px;font-style: italic;font-weight: bold;color: rgb(112, 43, 112);">   Your World Of Shopping, Just A Click Away.</h1></div>
+        <div class="search">
+            <input style="display: flex; width: 550px;height: 40px;border-radius: 20px;margin-left: 500px;border: solid black;id:searchInput;" type="text" placeholder="search items here">
+            <img style="width: 45px;height: 45px;margin-left: -50px;id:searchIcon;" src="photos/search icon logo.png">
+            <img style="width: 45px;height: 45px;margin-left: 350px;" src="photos/cart icon logo.png" alt="">
+        </div>
+        <div>
+            <h1 style="display:flex;margin-left:600px;font-weight: bolder;font-style: roboto;color: rgb(132, 16, 240);">Gas Stove</h1>
+        </div>
+        <div class="Main">
+            <div>
+                <img src="photos/samsunggas.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Pigeon</p>
+            </div>
+            <div>
+                <img src="photos/gegas.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 30px;">GE</p>
+            </div>
+            <div>
+                <img src="photos/boschgas.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Bosch</p>
+            </div>
+            <div>
+                <img src="photos/prestigegas.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Prestige</p>
+            </div>
+            <div>
+                <img src="photos/whirlpoolgas.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 5px;">Whirlpool</p>
+            </div>
+        </div>
+                <div class="gallery">
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/peggas1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Pigeon Combo - Brunet Cooktop + Flat tawa 250 + Fry Pan 240 Glass Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/gegas1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Greenchef Ebony with Lighter Glass Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/bosgas5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">BOSCH 60 cm Italian Double Ring Burners (PCI6B3B90I) Stainless Steel Automatic Hob  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pregas1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Prestige Atlas Plus High Effient Brass burner & Toughened Glass Automatic Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/bosgas4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">BOSCH PMD83D31NX Glass Automatic Hob  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pregas2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Prestige Atlas Plus Toughened top with Lighter Knife and Hose Pipe Glass Manual Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/peggas2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Pigeon Brunet Glass Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/whigas1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Whirlpool ELITE HYBRID 703 MT Glass Automatic Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/gegas5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Greenchef Nexa Glass Manual Gas Stove  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/gegas2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Greenchef Ebony Glass Manual Gas Stove  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/bosgas2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">BOSCH Built in Black Tempered Glass 75cm Matt Black Heat Shield(PNI7B6F20I Glass Automatic Hob  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/peggas5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Pigeon Popular Cooktop Glass Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pregas3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Prestige Prime Stainless Steel Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/gegas4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Greenchef Ebony Glass Manual Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/whigas2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Whirlpool ELITE HYBRID 704 MT Glass Automatic Hob  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/bosgas3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">BOSCH Built-in Gas Hob Black Tempered Glass 3 Burner 60cm True brass(PNC6B6B11I) Glass Automatic Hob  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/peggas4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Pigeon Combo - Brunet Cooktop + Flat tawa 250 + Fry Pan 240 Glass Manual Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pregas5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Prestige Svachh Neo GTSN 03 with Liftable Burners Glass Manual Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/gegas3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Greenchef Ebony Glass Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/whigas3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Whirlpool SUPREMO 266 CT Glass Manual Gas Stove  (2 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/bosgas1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">BOSCH Black Glass Cooktop Manual Ignition 60 cm 4 Ring(PNP0E6W10I)Lifetime Warranty on Glass Manual Hob  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/whigas4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Whirlpool 4 Heavy Duty Forged Brass Burner & Rust Free Body GRANDIOSA ULTRA 904 CT AI BR Glass Automatic Gas Stove  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/peggas3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Pigeon Combo - Brunet Cooktop + Flat tawa 250 + Fry Pan 240 Glass Manual Gas Stove  (3 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pregas4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Prestige Svachh Duo GTSD 04 SQ with Liftable Burner & Superior Toughened Glass Manual Gas Stove  (4 Burners)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+             </div>  
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>E-kart Employee Login</title>
+         <style>
+            .login{
+                display: flex;
+                flex-direction: column;
+                flex: 1fr;
+                align-items: center;
+                row-gap: 20px;
+                border: 5px solid #1f1e1e;
+                border-radius: 10px;
+                height:400px;
+                width: 400px;
+                background-color:lightblue;
+                box-shadow: 0 0 10px rgba(0,0,0,0,1);
+                margin-left: 550px;
+                margin-top: 200px;
+            }
+            .input1{
+                height: 30px;
+                width: 300px;
+                margin-bottom: 17px;
+                border-radius: 10px;
+            }
+             .input2{
+                height: 30px;
+                width: 300px;
+                border-radius: 10px;
+            }
+            body{
+                background-color: lightblue;
+            }
+            .submit{
+                width: 100px;color: white;background-color: blue;height: 35px; border-radius: 10px;margin-top: 10px;
+                font-weight: bold;
+                font-style: roboto;
+                cursor: pointer;
+            }
+            .submit:active{
+                background-color: lightcyan;
+                color: black;
+            }
+         </style>
+    </head>
+    <body>
+       <div class="login">
+        <div>
+        <p style="height: 32;font-style: roboto;font-weight: bold;display:grid;place-items: center;font-size: 32px;">LOGIN HERE!</p>
+       </div>
+        <div>
+            <p style="height: 20px; width: 100px;margin-right: 200px;font-weight: bold;">Employee ID :<input class="input1" type="number" placeholder="Enter ID"></p>
+        </div>
+        <div>
+            <p style="height: 20px;width: 100px; margin-top: 15px;margin-right: 200px;font-weight: bold;">Password :<input class="input2" type="password" placeholder="Enter password"></p>
+        </div>
+        <div><button class="submit">Submit</button></div>
+        <p style="margin-top: 3px;font-style: italic;font-weight: bold;color: blue;margin-right: 200px;cursor: pointer;">Forgot Password</p>
+       </div>
+    </body>
+
+</html>

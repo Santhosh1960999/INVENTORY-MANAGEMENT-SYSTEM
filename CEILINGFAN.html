@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+             body{
+                background-color: #e6f0ff;
+             }
+             img{
+                width: 300px;
+                height: 300px;
+                cursor: pointer;
+             }
+             .search{
+                display: flex;
+                flex-direction: row;
+                flex: 1fr 1fr 1fr;
+             }
+             .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 25px;
+                margin-top: 100px;
+                
+             }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: row;flex: 100px 1fr;"><img src="photos/logo.png" style="width: 100px;height: 100px;border-radius: 80px;"><h1 style="margin-left: 20px;font-style: italic;font-weight: bold;color: rgb(112, 43, 112);">   Your World Of Shopping, Just A Click Away.</h1></div>
+        <div class="search">
+            <input style="display: flex; width: 550px;height: 40px;border-radius: 20px; id:searchInput; margin-left: 500px;border: solid black;" type="text" placeholder="search items here">
+            <img style="width: 45px;height: 45px;margin-left: -50px;id:searchIcon;" src="photos/search icon logo.png">
+            <img style="width: 45px;height: 45px;margin-left: 350px;" src="photos/cart icon logo.png" alt="">
+        </div>
+        <div>
+            <h1 style="display:flex;margin-left:600px;font-weight: bolder;font-style: roboto;color: rgb(132, 16, 240);">Ceiling Fan</h1>
+        </div>
+        <div class="Main">
+            <div>
+                <img src="photos/havellscfan.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 20px;">Havells</p>
+            </div>
+            <div>
+                <img src="photos/cromptoncfan.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Crompton</p>
+            </div>
+            <div>
+                <img src="photos/atombergcfan.png" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Atomberg</p>
+            </div>
+            <div>
+                <img src="photos/orientcfan.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Orient</p>
+            </div>
+            <div>
+                <img src="photos/ushacfan.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 25px;">Usha</p>
+            </div>
+        </div>
+                <div class="gallery">
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havcfan1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Ambrose Slim with 5 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | Bianco | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/atombergcfan.png" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Atomberg Erica Nuvo|Award Winning Designer Fan|High Air Delivery|Low Noise|Elegant Trims with 3 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | Aegean Blue | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/oricafn1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Orient Electric Ujala Air BEE Star Rated with 2 Year Warranty 1200 mm Ceiling Fan  (1 Star | Matt Blue | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/crocfan1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Crompton Energion Hyperjet with 2 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | White | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/crocfan4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Crompton Energion NITEO with 4 Year Warranty 1200 mm Ceiling Fan  (5 Star | Matte Black | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/atomcfan5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Atomberg Renesa Prime Regulator Operated|High Air Delivery|Low Noise|Sleek Design with 3 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | White | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havcfan2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Ambrose ES with 2 Year Warranty Energy Saving 1200 mm Ceiling Fan  (1 Star | Cola Espresso Brown | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/oricfan2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Orient Electric I Tome Pro BLDC BEE Star Rated with 3 Year Warranty BLDC Motor 1200 mm Ceiling Fan  (5 Star | Space Grey | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/atomcfan4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">KUHL Brise Star E5 65% Power Saving with 5 Year Warranty BLDC Motor with Remote 1320 mm Ceiling Fan  (5 Star | White | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/ushacfan1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">USHA Aeroedge Plus with 2 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | Brown | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havcfan5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Leganza ES 4B with 2 Year Warranty 1200 mm Ceiling Fan  (1 Star | Mist Honey | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/oricfan5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Orient Electric Aeroslim with 3 Year Warranty Energy Saving 1200 mm Ceiling Fan  (Brown | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/oricfan4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Orient Electric Wendy BEE Star Rated with 2 Year Warranty Ultra High Speed 1200 mm Ceiling Fan  (1 Star | Blue Silver | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/atomcfan3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Superfan X1 with 5 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | Blue | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/ushacfan2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">USHA Striker One with 2 Year Warranty 1200 mm Ceiling Fan  (1 Star | Spanish Green | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/crocfan2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Crompton Aura Prime Antidust_ with 2 Year Warranty 1200 mm Ceiling Fan  (Titanium Effect | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havcfan4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Artemis ES with 2 Year Warranty Energy Saving 1200 mm Ceiling Fan  (1 Star | Matt Blue | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/atomcfan2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Atomberg Renesa Prime Remote|High Air Delivery|LED Speed Indicator|Low Noise|Sleek Design with 3 Year Warranty BLDC Motor with Remote 1200 mm Ceiling Fan  (5 Star | Gloss Brown | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/crocfan5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Crompton Silentpro Enso_ with 5 Year Warranty 1225 mm Ceiling Fan  (Silk White | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/ushacfan3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">USHA Upsilon with 2 Year Warranty 1200 mm Ceiling Fan  (5 Star | White | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/crocfan3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Crompton Aura Prime Antidust_ with 2 Year Warranty 1200 mm Ceiling Fan  (Titanium Effect | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/ushacfan4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">USHA Usha Fontana Maple with 2 Year Warranty Anti Dust 1250 mm Ceiling Fan  (Antique Brass | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/havcfan3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">HAVELLS Fab BLDC Pro with 2 Year Warranty BLDC Motor 1200 mm Ceiling Fan  (5 Star | Midnight | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/oricfan3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Orient Electric Ujala Prime BEE Star Rated with 5 Year Warranty 1200 mm Ceiling Fan  (White | Pack of 1)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+             </div>  
+    </body>
+</html>

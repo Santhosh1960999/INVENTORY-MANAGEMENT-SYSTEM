@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .Main{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-left: 80px;
+                margin-top: 10px;
+            }
+             body{
+                background-color: #e6f0ff;
+             }
+             img{
+                width: 300px;
+                height: 300px;
+                cursor: pointer;
+             }
+             .search{
+                display: flex;
+                flex-direction: row;
+                flex: 1fr 1fr 1fr;
+             }
+             .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 25px;
+                margin-top: 100px;
+                
+             }
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: row;flex: 100px 1fr;"><img src="photos/logo.png" style="width: 100px;height: 100px;border-radius: 80px;"><h1 style="margin-left: 20px;font-style: italic;font-weight: bold;color: rgb(112, 43, 112);">   Your World Of Shopping, Just A Click Away.</h1></div>
+        <div class="search">
+            <input style="display: flex; width: 550px;height: 40px;border-radius: 20px;margin-left: 500px;border: solid black;id:searchInput;" type="text" placeholder="search items here">
+            <img style="width: 45px;height: 45px;margin-left: -50px; id:searchIcon;" src="photos/search icon logo.png">
+            <img style="width: 45px;height: 45px;margin-left: 350px;" src="photos/cart icon logo.png" alt="">
+        </div>
+        <div>
+            <h1 style="display:flex;margin-left:600px;font-weight: bolder;font-style: roboto;color: rgb(132, 16, 240);">Televisions</h1>
+        </div>
+        <div class="Main">
+            <div>
+                <img src="photos/samsung.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Samsung</p>
+            </div>
+            <div>
+                <img src="photos/lg.avif" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 30px;">LG</p>
+            </div>
+            <div>
+                <img src="photos/panasonic.webp" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 10px;">Panasonic</p>
+            </div>
+            <div>
+                <img src="photos/hisense.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 15px;">Hisense</p>
+            </div>
+            <div>
+                <img src="photos/tcl.jpg" style="width: 80px;height: 80px;border: 2px solid;border-radius: 65px;align-items: center;cursor: pointer;">
+                <p style="font-weight: bold;font-style: italic;align-items: center;margin-left: 25px;">TCL</p>
+            </div>
+        </div>
+        <div class="gallery">
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samtv1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung Crystal 4K Infinity Vision 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV 2025 Edition with 4K Upscaling | HDR 10+ | Voice Assistance Remote Control | PurColor | Slim Look | Samsung Knox Security | 100+ Free Channels | Universal Gestures  (UA43UE84AFULXL)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgtv1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG 80 cm (32 inch) HD Ready LED Smart WebOS TV with Alpha5 Gen5 AI Processor | Magic Remote  (32LQ576BPSA)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pantv1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Panasonic 127 cm (50 inch) Ultra HD (4K) LED Smart Android TV  (TH-50PX660DX)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/histv1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Hisense E6N 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV with Dolby Vision Atmos, Dts Virtual X and 4K AI Upscaler  (43E6N)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgtv4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG 32LMBPTC 80 cm (32 inch) HD Ready LED Smart WebOS TV with Core Processor, HDR, 60 Hz Refresh Rate, DTS Virtual:X, Dolby Audio  (32LM563BPTC)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/histv2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Hisense E68N 139 cm (55 inch) QLED Ultra HD (4K) Smart Google TV with Dolby Vision Atmos Far Field Voice Control Smooth Motion Rate  (55E68N)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samtv2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung Crystal 4K Vision Pro 125 cm (50 inch) Ultra HD (4K) LED Smart Tizen TV with Bright Vision | 4K Upscaling | Multiple Voice Assistance Remote | Purcolor | HDR 10+ | Auto Game Mode | Q-Symphony | Knox Security  (UA50DUE76AKLXL)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/tcltv1.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">TCL T6C 108 cm (43 inch) QLED Ultra HD (4K) Smart Google TV 2025 Edition with HDR10+ | Dolby Vision- Atmos| HVA Panel| Slim & Uni body Design  (43T6C)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgtv2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG 32LQBPTA 80 cm (32 inch) HD Ready LED Smart WebOS TV with Alpha5 Gen5 AI Processor, ThinQ AI, AI Sound, AI Acoustic Tuning, 60 Hz Refresh Rate, HDR10, Game Optimizer, Magic Remote Control Ready?  (32LQ643BPTA)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/tcltv2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">TCL 108 cm (43 inch) Ultra HD (4K) LED Smart Google TV 2025 Edition with MEMC | Dolby Vision-Atmos | HVA Panel & Metallic Bezel-Less  (43V6C)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pantv3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Panasonic 139 cm (55 inch) Ultra HD (4K) LED Smart TV with 4K Color Engine HDR 10 Home Theatre Built in DTS Bezel-less Chrmecast Built-in & I cast  (TH-55MX750DX)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samtv4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung 108 cm (43 inch) Full HD LED Smart Tizen TV with 300+ Free Channels | HDR | PurColor | Dolby Digital Plus | Hyper Real Picture Engine | Triple Protection | SmartThings App Support | TV Key | Connect Share (HDD)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pantv5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">NOAX 80 cm (32 inch) Full HD 3D LED Smart Android TV with Dynamic Tone Mapping (Artificial Intelligence Apne Hisab Se Colours Or Contrast Ko Change Karta Hai) for Better Visuals.  (RASeries)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/histv4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Hisense U6K 139 cm (55 inch) QLED Ultra HD (4K) Smart Google TV with Full Array Local Dimming, Hands Free Voice Control, Dolby Vision and Atmos (55U6K)  (55U6K)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgtv5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG Nanocell 139 cm (55 inch) Ultra HD (4K) LED Smart WebOS TV with Magic Remote Control  (55NANO73SQA)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/tcltv3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">TCL C6K 139 cm (55 inch) Ultra HD (4K) Mini LED Smart Google TV 2025 Edition with 512+ Local Dimming Zones | High HDR Brightness | 144 Hz Native Refresh Rate | 40 W ONKYO 2.1 CH Hi-Fi System, IMAX Enhanced  (55C6K)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samtv5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung 127 cm (50 inch) QLED Ultra HD (4K) Smart Tizen TV with 2024 Model  (QA50Q60DAULXL)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/tcltv4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">TCL 139.7 cm (55 inch) Ultra HD (4K) LED Smart Google TV with QLED, HDR 10, Dolby Audio  (55P6K)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pantv4.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Panasonic 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV  (TH-43MX740DX)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/histv3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Hisense A6K 189 cm (75 inch) Ultra HD (4K) LED Smart Google TV with Hands Free Voice Control, Dolby Vision & Atmos and 120 High Refresh Rate Mode  (75A6K)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/lgtv3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">LG UR7500 108 cm (43 inch) Ultra HD (4K) LED Smart WebOS TV with Alpha5 AI Processor 4K Gen6, AI Picture Pro, 4K Upscaling, 60 Hz Refresh Rate, Game Optimizer, Magic Remote Capability, 5-Year Guaranteed with New OS Experience  (43UR7500PSC)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/histv5.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Hisense 85E7Q 215 cm (85 inch) QLED Ultra HD (4K) Smart VIDAA TV 2025 Edition with Dolby Vision Atmos, 120 High Refresh Rate, AI 4K Upscaler  (85E7Q)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/pantv2.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Panasonic 108 cm (43 inch) Full HD LED Smart TV with FHD,Vivid Didital Pro,AccuView Display,,Dolby Digital  (TH-43MS550DX)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 350px;height: 200px;border: solid black;border-radius: 25px;" src="photos/samtv3.webp" >
+                    <div style="display: grid;grid-template-columns: 290px 60px">
+                    <p style="margin-left: 20px;max-width: 250px;">Samsung Crystal 4K Vivid 108 cm (43 inch) Ultra HD (4K) LED Smart Tizen TV with 4K Upscaling | Purcolor | Auto Game Mode | Q-Symphony | Voice Ready | Knox Security  (UA43DUE70BKLXL)</p>
+                    <button style="width: 50px;height: 30px;margin-top: 20px;border-radius: 10px;background-color: rgb(220, 224, 24);color: black;">VIEW</button>
+                    </div>
+                </div>
+             </div>   
+    </body>
+</html>
